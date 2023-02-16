@@ -7,5 +7,31 @@
         android:id="@+id/activity_main_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="152dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textSize="20dp"
+        android:text="No Internet Connection Available!"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />
+
+
+        <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/seok_logo" />
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        />-->
 
 </RelativeLayout>
